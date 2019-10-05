@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:background="#AFCAE4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Department">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtdepartname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Department Name" />
+
+
+            <EditText
+                android:id="@+id/edtmanagername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Manager Name"
+                />
+
+            <EditText
+                android:id="@+id/edtcontactperson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact Person"
+                android:inputType="textEmailAddress" />
+
+
+
+            <Button
+                android:layout_marginTop="55dp"
+                android:id="@+id/btndept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save " />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

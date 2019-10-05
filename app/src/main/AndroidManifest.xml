@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sastra">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.AddEmployeesActivity"></activity>
+        <activity android:name=".activities.EmployeesActivity" />
+        <activity android:name=".activities.AddOurDetauksActivity" />
+        <activity android:name=".activities.AddVisitorActivity" />
+        <activity android:name=".activities.AddCompanyActivity" />
+        <activity android:name=".activities.AddLocationsActivity" />
+        <activity android:name=".activities.AddDepartmentdetailsActivity" />
+        <activity android:name=".activities.OurDetailsActivity" />
+        <activity android:name=".activities.VisitorsActivity" />
+        <activity android:name=".activities.CompanyActivity" />
+        <activity android:name=".activities.LocationsActivity" />
+        <activity android:name=".activities.DepartmentsActivity" />
+        <activity android:name=".activities.ApplicationSettingsActivity" />
+        <activity android:name=".activities.ChangePasswordActivity" />
+        <activity android:name=".activities.PdfActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
